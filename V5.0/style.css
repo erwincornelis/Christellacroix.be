@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Verdana, 'Trebuchet MS';
+    background: #FFFFFF url('images/content_background.png') repeat top left;
+    font-size: 12px;
+}
+
+#page {
+    position: relative;
+    min-height: 100%;
+    height: auto !important; /* voor moderne browsers */
+    height: 100%; /* voor IE */
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: #167CD1; /* url('images/header_background.png') repeat-x top left;*/
+    color: #c5d823;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px 0px 100px 0px;
+    position: relative;
+    font-family: 'ParisineClairRegular', Arial, 'Trebuchet MS';
+}
+
+#overlay-goedgestemd {
+    width: 1000px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#overlay-goedgestemd #goedgestemd-header {
+    width: 140px;
+    background: #c5d823 url('images/nav-background.png') repeat top left;
+    position: absolute;
+    top: -85px;
+    right: 0px;
+    padding: 10px;
+    opacity: 0.0;
+}
+
+#navigation {
+    width: 100%;
+    margin: 0px auto;
+    background: #c5d823 url('images/nav-background.png') repeat top left;
+    color: #FFFFFF;
+}
+
+#navigation ul {
+    list-style-type: none;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+#navigation ul li {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li a {
+    display: block;
+    margin: 10px 3px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+#navigation ul li a.nav-non-active,
+#navigation ul li a:link,
+#navigation ul li a:active,
+#navigation ul li a:visited {
+    color: #167CD1;
+}
+
+#navigation ul li a.nav-active {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#navigation ul li a .text {
+    font-family: 'ParisineClairRegular', Arial, 'Trebuchet MS';
+    z-index: 2; 
+    position: relative;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#navigation ul li a .imageholder,
+#navigation ul li .imageholder	{
+    width: 80px; 
+    height: 80px; 
+    position: absolute; 
+    top: -110px;
+    opacity: 0.0;
+    background-image: url('images/imageholder.png');
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li a .imageholder img,
+#navigation ul li .imageholder img {
+    border-width: 0px;
+    padding: 10px;
+    width: 60px; 
+    height: 54px;
+}
+
+#content {
+    width: 960px;
+    margin: 0px auto;
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 20px;
+    z-index: 10;
+    padding-bottom: 80px;
+    overflow: hidden;
+    height: 100%;
+}
+
+#content img {
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+
+#content h1 {
+    font-family: 'ParisineClairRegular', Arial, 'Trebuchet MS';
+    margin: 10px 0px 20px 0px;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+#content h2 {
+    font-size: 22px;
+    margin: 15px 0px 20px 0px;
+    font-weight: normal;
+}
+
+#content p {
+    line-height: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+#content a:link,
+#content a:active,
+#content a:visited {
+    color: #167CD1;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: #045AB0;
+}
+
+#content div table.referenties {
+    text-align: center;
+}
+
+#content div table.referenties tr td  {
+    padding: 5px 50px;
+    margin: 0;
+}
+
+#content #subNavigatie {
+    width: 200px; 
+    float: left;
+    position: relative; 
+    top: -50px;
+    opacity: 0.0;
+}
+
+#content #subNavigatie ul {
+    list-style-type: none;
+}
+
+#content #subNavigatie ul li {
+}
+
+#content #subNavigatie ul li a:link,
+#content #subNavigatie ul li a:active,
+#content #subNavigatie ul li a:visited,
+#content #subNavigatie ul li a {
+    color: #167CD1;
+    text-decoration: none;
+    display: block;
+    padding: 6px 5px;
+    margin: 0px 0px 10px 0px;
+    background: #FFFFFF url('images/subnav-background.png') no-repeat -200px 0px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#content #subNavigatie ul li a.subNavigatie-active {
+    background: #FFFFFF url('images/subnav-active-background.png') no-repeat 0px 0px;
+    padding-left: 25px;
+}
+
+#content #subContent {
+    margin-left: 200px;
+    padding-left: 30px;
+    width: 730px;
+    text-align: justify;
+}
+
+#content #subContent h1 {
+    margin: 2px 0 20px 0;
+    padding: 0;
+}
+
+#content #subContent p {
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+#content #links ul {
+    list-style-type: none;
+}
+
+#content #links ul li {
+    margin-bottom: 20px;
+}
+
+#content #links ul li .link a:link,
+#content #links ul li .link a:active,
+#content #links ul li .link a:visited {
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #167CD1;
+}
+
+#content #links ul li .link {
+    background: #FFFFFF url('images/subnav-active-background.png') no-repeat 0 0; 
+    width: 200px; 
+    float: left; 
+    padding: 8px 5px;
+}
+
+#content #links ul li .description {
+    background-color: #EEEEEE; 
+    width: 720px; 
+    padding: 6px 10px;
+    float: right;
+    position: relative;
+}
+
+#content #links ul li .description p {
+    margin: 0;
+}
+
+#content #links ul li .linkb {
+    background-color: #EEEEEE; 
+    /*width: 720px; */
+    padding: 6px 10px;
+    /*float: right;*/
+    position: relative;
+}
+
+#content .contact p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#content .citaat {
+    background: #EEE url('images/citaat.png') no-repeat top right;
+    padding: 10px; 
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+#content div#goedgestemd_situaties_div ul#goedgestemd_situaties {
+    list-style-type: none;
+    padding: 0;
+}
+
+#content div#goedgestemd_situaties_div ul#goedgestemd_situaties li {
+    margin: 0;
+    line-height: 20px;
+}
+
+#content .tabs #subContent table.workshops-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#content .tabs #subContent table.workshops-list tr td.td-short-description {
+    width: 210px;
+}
+
+#content .tabs #subContent table.workshops-list tr td div.short-description {
+    padding: 6px 10px 14px 10px;
+    margin-right: 10px;
+    /*margin-bottom: 10px;*/
+    background: #FFFFFF url('images/subnav-active-background.png') no-repeat 0px 0px;
+    position: relative;
+}
+
+#content .tabs #subContent table.workshops-list tr td div.long-description {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #EEEEEE; 
+    position: relative;
+}
+
+#content .tabs #subContent table.workshops-list tr td div.datetime {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+#content .tabs #subContent div.aanbod-title {
+	background-color: #EEEEEE; 
+	margin-bottom: 15px; 
+	padding: 10px; 
+	position: relative; 
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#content .tabs #subContent table tr td.aanbod-table-title {
+    vertical-align: top; 
+	font-weight: bold;
+}
+
+#content .tabs #subContent table tr td.aanbod-table-data {
+	vertical-align: top; 
+	padding-left: 30px;
+}
+
+.gray-rounded-corner-top-left {
+    background: #EEEEEE url('images/rounded_corners/top-left.png') no-repeat top left; 
+    width: 4px; 
+    height: 4px;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+
+.gray-rounded-corner-top-right {
+    background: #EEEEEE url('images/rounded_corners/top-right.png') no-repeat top left; 
+    width: 4px; 
+    height: 4px; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+}
+
+.gray-rounded-corner-bottom-left {
+    background: #EEEEEE url('images/rounded_corners/bottom-left.png') no-repeat top left; 
+    width: 4px; 
+    height: 4px; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+}
+
+.gray-rounded-corner-bottom-right {
+    background: #EEEEEE url('images/rounded_corners/bottom-right.png') no-repeat top left; 
+    width: 4px; 
+    height: 4px; 
+    position: absolute; 
+    bottom: 0; 
+    right: 0;
+}
+
+.green-rounded-corner-top-left {
+    background: #c5d823 url('images/rounded_corners/top-left-green.png') no-repeat top left; 
+    width: 4px; 
+    height: 4px;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+
+.green-rounded-corner-top-right {
+    background: #c5d823 url('images/rounded_corners/top-right-green.png') no-repeat top left; 
+    width: 4px; 
+    height: 4px; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+}
+
+.green-rounded-corner-bottom-left {
+    background: #c5d823 url('images/rounded_corners/bottom-left-green.png') no-repeat top left; 
+    width: 4px; 
+    height: 4px; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+}
+
+.green-rounded-corner-bottom-right {
+    background: #c5d823 url('images/rounded_corners/bottom-right-green.png') no-repeat top left; 
+    width: 4px; 
+    height: 4px; 
+    position: absolute; 
+    bottom: 0; 
+    right: 0;
+}
+
+.rounded-corner-top-left-transparant {
+    background-image: url('images/rounded_corners/top-left-transparant.png');
+    background-repeat: no-repeat;
+    background-position: top left; 
+    width: 4px; 
+    height: 4px; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+
+.rounded-corner-top-right-transparant {
+    background-image: url('images/rounded_corners/top-right-transparant.png');
+    background-repeat: no-repeat;
+    background-position: top left; 
+    width: 4px; 
+    height: 4px; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+}
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #3A3A3A;
+    color: #FFFFFF;
+    padding: 20px 0;
+    margin: 0;
+    width: 100%;
+    z-index: 11;
+    text-align: center;
+}
+
+#footer a:link,
+#footer a:active,
+#footer a:visited,
+#footer a:hover	{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,97 @@
+<div id="workshops-aanbod">
+			<h1>Aanbod</h1>
+			<div class="aanbod-title">Workshop: stem voor leerkrachten en beroepssprekers</div>
+			<p>
+				Het is weer zover.<br />
+				Het schooljaar is halverwege en de stemvermoeidheid is er weer. <br />
+				In 2 workshopavonden geef ik je tips en eenvoudige maar doeltreffende oefeningen om je stem fit en in topvorm te krijgen. <br />
+			</p>
+			<table cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="aanbod-table-title"><p>Data</p></td>
+					<td class="aanbod-table-data">
+						<p>
+							<b>Workshop 1</b><br />
+							Maandag 12 mei<br />
+							Maandag 19 mei<br />
+							<br />
+							<b>Workshop 2</b><br />
+							Woensdag 14 mei<br />
+							Woensdag 21 mei<br />
+							 <br />
+							<b>Workshop 3</b><br />
+							Maandag  26 mei<br />
+							Vrijdag 30 mei<br />
+							<br />
+							Start: 19.00u tot 21.00u<br />
+							Deelnemersprijs voor 2 avonden: € 125  incl. BTW en het boek Goed Gestemd<br />
+							Cursusmateriaal: Boek Goed Gestemd (incl. in de prijs)<br />
+							Aantal deelnemers: Min 5 en max 8 personen.<br />
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="aanbod-table-title"><p>Waarom stemcoaching?</p></td>
+					<td class="aanbod-table-data">
+						<p>
+							Volgens een recente bevraging ondervindt in Vlaanderen één op drie leerkrachten moeilijkheden met de stem. Eén op vijf heeft zelf echt stemproblemen. Speciaal op maat voor leerkrachten en beroepsprekers organiseert stemcoach Christel Lacroix een workshop van drie avonden 2 uur per avond.<br />
+							<br />
+							Je spreekt veel en soms luid. Je merkt na een tijdje dat je stem het moeilijker heeft. Het vraagt steeds meer inspanning om al je lessen even spreekvlot te kunnen geven. Je klinkt licht hees of soms voel je steken ter hoogte van je stembanden. Je draagkracht vermindert en luid spreken vraagt inspanning. Of je wilt gewoon voorkomen dat je je stem kwijt raakt.<br />
+							<br />
+							In de workshops gaan we samen op weg om je stem te verzorgen en te voorkomen dat er problemen ontstaan. Een goede ademhaling , een open en heldere uitspraak en natuurlijk vergeten we de draagkracht niet. Samen nemen we alle oefeningen door zodat je zelf verder kunt werken.<br />
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="aanbod-table-title"><p>Inhoud</p></td>
+					<td class="aanbod-table-data">
+						<p style="margin-top: 0;">
+							<ul style="margin-left: 18px;">
+								<li style="line-height: 22px;">Ademhaling , open en voorwaartse stemprojectie , verstaanbaarheid , stemwarmte en draagkracht</li>
+								<li style="line-height: 22px;">Eigen stem bespreking en individuele werkpunten</li>
+								<li style="line-height: 22px;">Tips om je stem optimaal te gebruiken</li>
+								<li style="line-height: 22px;">Do’s en don’ts van de stem</li>
+								<li style="line-height: 22px;">De avonden zijn telkens opbouwend met heel veel oefeningen en controlemomenten van de vorige leerstof</li>
+							</ul>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="aanbod-table-title"><p style="text-align: left;">Info en inschrijven</p></td>
+					<td class="aanbod-table-data">
+						<p>
+							Christel Lacroix<br /> 
+							Veldekens 44<br />
+							2600 Berchem<br />
+							België<br />
+							GSM: 0495 / 533 992<br />
+							e-mail: info@christellacroix.be<br />
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="aanbod-table-title"><p>Wie is Christel Lacroix?</p></td>
+					<td class="aanbod-table-data">
+						<p>
+Christel Lacroix, een logopediste met een passie voor stemmen.<br />
+<br />
+In 1989 bestond er nog geen uitspraak-, stem- en presentatietraining op de VRT. Dat kon ze niet zo laten en dus ontstond de dienst logopedie. Nu nog werkt ze dagelijks met verschillende VRT stemmen.<br />
+<br />
+In de loop van de jaren zijn er heel wat mediaspelers bijgekomen. VTM, Woestijnvis, regionale zenders, Kanaal Z, enz. en ook daar geeft ze stem- en cameratraining.<br />
+<br />
+Ook de bedrijfswereld kon ze overtuigen dat je met je stem en een goede uitspraak meer kan doen dan enkel “mooi“ praten. De manier waarop je je intonatie gebruikt speelt een cruciale rol in hoe je speech of presentatie zal overkomen. Regelmatig geeft ze advies bij de voorbereiding van presentaties en speeches.<br />
+<br />
+Leerkrachten met de typische stemknobbeltjes en lesheesheid zijn welkom in haar privépraktijk.<br />
+<br />
+Negen jaar geleden kwam er een nieuwe uitdaging: stemtraining aan de studenten journalistiek van de PXL en daarna ook aan Howest en Artesis Hogeschool. En zoals ze het zelf zegt: 'super tof om met jonge mensen te mogen werken'<br />
+<br />
+In 2009 kwam er de kroon op haar werk in de vorm van het boek 'Goed Gestemd'. Een boek vol praktische tips en een CD met oefeningen waar geen letter theorie op staat maar wel een uur oefeningen ingesproken door 25 ervaren VRT stemmen. Zo kan iedereen een gezonde stem , een mooie uitspraak en een vlotte presentatie krijgen<br />
+<br />
+Je zou het inderdaad met de woorden van Erik van Looy kunnen omschrijven :  'ze is een even gepassioneerde lesgever en stemtrainer als professor Higgins uit My Fair Lady'
+						</p>
+					</td>
+				</tr>
+			</table>
+			
+			
+		</div>
